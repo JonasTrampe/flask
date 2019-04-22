@@ -3,11 +3,10 @@
 Flask Changelog
 ===============
 
-
 Version 1.1
 -----------
 
-Unreleased
+Released on April 22th 2019
 
 -   :meth:`flask.RequestContext.copy` includes the current session
     object in the request context copy. This prevents ``session``
@@ -30,7 +29,7 @@ Unreleased
 Version 1.0.3
 -------------
 
-Unreleased
+Released on April 22th 2019
 
 -   :func:`send_file` encodes filenames as ASCII instead of Latin-1
     (ISO-8859-1). This fixes compatibility with Gunicorn, which is
